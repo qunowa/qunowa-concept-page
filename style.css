@@ -339,3 +339,11 @@ h1, h2, h3 {
     opacity: 1;
     transform: translateY(0);
 }
+
+.concept-section .concept-title-sub {
+    font-size: 2.5em; /* h2と同じサイズ */
+    margin-top: 20px; /* 上のh2との間隔 */
+    margin-bottom: 20px; /* 下のpとの間隔 */
+    font-family: 'Playfair Display', serif; /* h2と同じフォント */
+    color: var(--primary-color);
+}
